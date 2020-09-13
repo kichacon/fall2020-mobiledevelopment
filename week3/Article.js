@@ -5,19 +5,20 @@ import Component from './Component.js';
 class Article extends Component {
 
   constructor (props) {
+    super(props);
     // Send what it gets to its parent object
   }
 
   render () {
     // Return HTML with the title, author, and text of this article
     // Use template literals for the variables
-    return (`
+    return (
       <Article>
-        <Title>this.props.title</Title>
-        <Author>this.props.author</Author>
-        <Text>this.props.text</Text>
+        <Title>${this.props.title}</Title>
+        <Author>${this.props.author}</Author>
+        <Text>${this.props.text}</Text>
       </Article>
-    `
+    
     );
     
   }

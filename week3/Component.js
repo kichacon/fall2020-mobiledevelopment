@@ -6,6 +6,12 @@ class Component {
 
   render () {
     // Child objects define their own render() methods
+    return (
+      <div>
+        {this.props}
+      </div>
+      
+    )
   }
 }
 

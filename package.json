@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Fall 2020: Mobile Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kichacon/fall2020-mobiledevelopment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kichacon/fall2020-mobiledevelopment/issues"
+  },
+  "homepage": "https://github.com/kichacon/fall2020-mobiledevelopment#readme"
+}

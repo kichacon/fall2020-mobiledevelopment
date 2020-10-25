@@ -9,15 +9,20 @@ class ExerciseOne extends Component {
   };
   }
     render () {
+      const stylebutton = {
+        color: "white",
+        backgroundColor: "purple",
+        borderRadius: "10px"
+      };
     return (
         <header>
-        <p>Jumping Jacks</p>
+        <p><b>Jumping Jacks</b></p>
           <p>
             Count: {this.state.counter}
           </p>
-          <button onClick={() => {this.setState({counter: this.state.counter + 1})}}>Increase Repetitions</button>
+          <button style={stylebutton}onClick={() => {this.setState({counter: this.state.counter + 1})}}>Increase Repetitions</button>
           <br></br>
-          <button onClick={() => {this.setState({counter: this.state.counter = 0})}}>Reset</button>
+          <button style={stylebutton}onClick={() => {this.setState({counter: this.state.counter = 0})}}>Reset</button>
         
         </header>
         

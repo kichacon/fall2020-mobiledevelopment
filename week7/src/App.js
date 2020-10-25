@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import ExerciseOne from './components/ExerciseOne';
 import ExerciseTwo from './components/ExerciseTwo';
+import Title from './components/Title';
+import CongratsAlert from './components/CongratsAlert';
 
 class App extends Component {
   
@@ -10,8 +12,11 @@ class App extends Component {
   return (
     <div className="App">
       <header className="App-header">
+      <Title />
       <ExerciseOne />
       <ExerciseTwo />
+      <CongratsAlert />
+      
       
       </header>
       
